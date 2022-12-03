@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #f0bb03;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 90px;
+  }
+}
+
+.description {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-weight: 35px;
+  }
+}
+
+.subscription-button {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .subscription-button {
+    font-size: 18px;
+  }
+}
